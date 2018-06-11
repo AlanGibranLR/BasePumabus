@@ -1,9 +1,9 @@
 //
 //  baseDatos.swift
-//  PumaB
+//  PumaBusBusBus
 //
-//  Created by macbookUser on 05/06/18.
-//  Copyright © 2018 Facultad de ingenieria. All rights reserved.
+//  Created by Equipo Pesadilla on 05/06/18.
+//  Copyright © 2018 Facultad de Ingeniería. All rights reserved.
 //
 
 import Foundation
@@ -81,12 +81,15 @@ var dicBases = [
                 70:(19.3228,-99.1892,"MB2", false),
                 71:(19.3252,-99.1814,"Ciencias 3", false),
                 72:(19.3290,-99.1790,"Ciencias del Mar", false),
-                //74:(19.3117,-99.1849,"Estacionamiento", false),
-                //75:(19.3117,-99.1849,"Estacionamiento", false),
-                //76:(19.3117,-99.1849,"Estacionamiento", false),
-
-
-                
+                73:(19.3301,-99.1882,"Centro Médico", false),
+                74:(19.3304,-99.1863,"Alberca", false),
+                75:(19.3304,-99.1849,"Ingeniería dirección este", false),
+                76:(19.3304,-99.1826,"Frontones", false),
+                77:(19.3307,-99.1809,"IIMAS", false),
+                78:(19.3349,-99.1915,"Relaciones Laborales", false),
+                79:(19.3355,-99.1928,"Dirección General de Obras/Proveeduría", false),
+                80:(19.3337,-99.1970,"AAPAUNAM", false),
+                81:(19.3141,-99.1815,"Coordinación de Humanidades",false)
                 ]
 
 let rutaN1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
@@ -95,10 +98,11 @@ let rutaN3 = [1, 28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,48,49,50]
 let rutaN4 = [53, 17, 19, 20, 21, 22, 23, 54, 55, 56, 57, 24, 25, 26, 27]
 let rutaN5 = [1,2,3,13,12,11,10,9,14,15,16,17]
 let rutaN6 = [21,22,23,54,59,60,61,62,63,64,65,66,55,67,68,69,56,57,69,70,24,25,26,20,71,72,51,58]
+let rutaN7 = [66,9,10,11,12,13,14,4,5,6,7,60,61,62,63,64,65]
+let rutaN8 = [66,73,74,75,76,77,51,52,58,21,22,23,54,59,60,61,62,63,64,65]
 let rutaN9 = [23,54,47,8,9,10,11,12,13,14,44,46,21,22]
-
-
-
+let rutaN10 = [34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,29,30,70,55,56,57,69,31,32,33]
+let rutaN11 = [54,59,60,61,78,79,80,67,68,56,57,70]
+let rutaExpress = [10,11,31,33,81,43]
 
 var rutaSelec = 0
-
